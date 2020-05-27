@@ -3,7 +3,10 @@ class School
 #2. def roster
 #     {}
 #3. @@roster
+<<<<<<< HEAD
 attr_accessor :roster
+=======
+>>>>>>> 85c4476c226cac4ff410a6c4d6f5c35c6634b386
 
 
   def initialize(school)
@@ -14,6 +17,7 @@ attr_accessor :roster
 
 
   def add_student(name,grade)
+<<<<<<< HEAD
     if !@roster[grade]
       @roster[grade]=[]
       @roster[grade]<<name
@@ -34,6 +38,8 @@ attr_accessor :roster
   end
 
 
+=======
+>>>>>>> 85c4476c226cac4ff410a6c4d6f5c35c6634b386
 
 
   end
